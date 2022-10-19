@@ -1,0 +1,22 @@
+{
+  "name": "article-preview-component",
+  "version": "1.0.0",
+  "description": "![Design preview for the Article preview component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist",
+    "build:scss": "sass src/style.scss dist/style.css",
+    "watch:scss": "sass --watch src/style.scss dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pratik280/article-preview-component.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pratik280/article-preview-component/issues"
+  },
+  "homepage": "https://github.com/Pratik280/article-preview-component#readme"
+}
