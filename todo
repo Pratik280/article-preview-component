@@ -1,0 +1,9 @@
+- [X] default styles
+- [X] colors setup
+- [X] font setup
+- [ ] utility classes for typography
+  - [X] font family
+  - [X] font size
+  - [X] font weight 
+  - [X] font color
+- [X] utility classes for bg colors
