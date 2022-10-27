@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/Pratik280/article-preview-component/issues"
   },
-  "homepage": "https://github.com/Pratik280/article-preview-component#readme"
+  "homepage": "https://github.com/Pratik280/article-preview-component#readme",
+  "dependencies": {
+    "gh-pages": "^4.0.0",
+    "sass": "^1.55.0"
+  }
 }
