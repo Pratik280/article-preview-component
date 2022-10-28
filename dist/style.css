@@ -66,6 +66,7 @@ svg {
 /* ####### CUSTOM PROPERTIES ###### */
 /* colors */
 :root {
+  --color-neutral-100: #fff;
   --color-neutral-500: hsl(210, 46%, 95%); /* bg white */
   --color-neutral-700: hsl(212, 23%, 69%); /* color behind share icon */
   --color-primary-500: hsl(214, 17%, 51%); /* font color */
@@ -102,6 +103,10 @@ body {
   font-weight: var(--fw-700);
 }
 
+.bg-color-neutral-100 {
+  background: var(--color-neutral-100);
+}
+
 .bg-color-neutral-500 {
   background: var(--color-neutral-500);
 }
@@ -132,6 +137,41 @@ body {
 
 .fc-color-primary-700 {
   color: var(--color-primary-700);
+}
+
+.container {
+  width: min(90%, 120rem);
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spacing > * + * {
+  --spacer: 0.75rem;
+  margin-top: var(--spacer, 2rem);
+}
+
+/* STYLES */
+.card__text-section {
+  margin-top: 1.5rem;
+  margin-inline: 1rem;
+}
+.card__text-one {
+  line-height: 1.75rem;
+}
+.profile {
+  margin-bottom: 0.75rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile__image {
+  width: 4rem;
+  border-radius: 50vh;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -7,23 +7,36 @@
   <link rel="stylesheet" href="./style.css">
   <title>Frontend Mentor | Article preview component</title>
 </head>
-<body class=".ff-primary fc-color-primary-500 .fs-500">
+<body class=".ff-primary fc-color-primary-500 fs-500 bg-color-neutral-500 flex-center ">
 
-<section>
-  <p class="fw-700">Shift the overall look and feel by adding these wonderful touches to furniture in your home</p>
-  <p class="fw-500">Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting.  I’ve got some simple tips to help you make any room feel complete.</p>
-  <div>
-    <p class="fw-700">Michelle Appleton</p>
-    <p class="fw-500">28 Jun 2020</p>
-  </div>
-  <div>
-    <p>SHARE</p>
-    <div>
-      <img src="./images/icon-facebook.svg" alt="facebook">
-      <img src="./images/icon-twitter.svg" alt="twitter">
-      <img src="./images/icon-pinterest.svg" alt="pinterest">
+<section class="card bg-color-neutral-100 container">
+  <picture>
+    <img src="./images/drawers.jpg" alt="drawers">
+  </picture>
+  <div class="card__text-section spacing">
+    <p class="fw-700 card__text-one">Shift the overall look and feel by adding these wonderful touches to furniture in your home</p>
+    <p class="fw-500 card__text-two">Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting.  I’ve got some simple tips to help you make any room feel complete.</p>
+    <div class="profile">
+      <picture>
+        <img class="profile__image" src="./images/avatar-michelle.jpg" alt="profile image">
+      </picture>
+      <div>
+        <p class="fw-700">Michelle Appleton</p>
+        <p class="fw-500">28 Jun 2020</p>
+      </div>
+      <picture>
+        <img src="./images/icon-share.svg" alt="share">
+      </picture>
     </div>
-    <img src="./images/icon-share.svg" alt="share">
+    <!-- <div>
+      <p>SHARE</p>
+      <div>
+        <img src="./images/icon-facebook.svg" alt="facebook">
+        <img src="./images/icon-twitter.svg" alt="twitter">
+        <img src="./images/icon-pinterest.svg" alt="pinterest">
+      </div>
+      <img src="./images/icon-share.svg" alt="share">
+    </div> -->
   </div>
 </section>
 
